@@ -1,0 +1,52 @@
+<!-- h1 -h6, p, img, link, list, table, form, video, iframe,
+  em tag, sub tag, sup tag, marquee, semantic html -->
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .box{
+        width: 800px;
+        height: 400px;
+        background-color: indianred;
+      }
+/* mobile screen */
+      @media only screen and (max-width:425px){
+        .box{
+        width: 250px;
+        height: 250px;
+        background-color: blue;
+      }
+      }
+
+/* tablet screen */
+      @media only screen and (min-width:426px) and (max-width:800px){
+        .box{
+        width: 400px;
+        height: 350px;
+        background-color: green;
+      }
+      }
+/* laptop screen */
+      @media only screen and (min-width:801px) and (max-width:1440px){
+        .box{
+        width: 400px;
+        height: 350px;
+        background-color: orange;
+      }
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <div class="box"></div>
+    <img src="dq.jfif" alt="">
+  </body>
+  </html>
+  
